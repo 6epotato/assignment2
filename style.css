@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background: whitesmoke
 }
 
 /* header side  */
@@ -40,9 +41,10 @@ header section h4{
 .populer-colection{
   
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 151px; 
+    grid-template-columns: repeat(3,0fr);
+    grid-column-gap: 30px;
     grid-row-gap: 20px;
+    padding-left: 104px;
     
 }
 .full-body .products .action{ 
@@ -50,11 +52,22 @@ header section h4{
     height: 256px;
 }
 .products{
-   background: red;
+   background: white;
    justify-items: center;
-   padding: 25px 22px;
+   padding: 20px 20px 20px 20px;
    border-radius: 20px;
+}
+/* stars */
+
+.fa-star{
+    color: #FB8200;
+    
+}
+.fa-star-half-alt{
+    color: #FB8200;
 }
 .details{
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #787885;
 }
