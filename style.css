@@ -18,8 +18,8 @@ header section h4{
 }
 
 .half-width img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 .half-width:hover img{
     transform: scale(1.4);
@@ -170,15 +170,16 @@ footer section
 @media only screen and (max-width:687px) {
      header h4{
         text-align: center;
-    } 
+    }
     .flexbox-container, .populer-colection, .photo-album{
-        
         grid-template-columns: repeat(1, 1fr);
-        
     }
-    .flexbox-container, .populer-colection, .photo-album{
+    .half-width,.products, .photo-frame{
         flex-direction: column;
-    }
+    } 
+   .footer-head{
+       width: 100%;
+   }
       
 }
 
@@ -186,13 +187,14 @@ footer section
 @media only screen and (min-width:688px) and (max-width:992px) {
     header h4{
         text-align: center;
-    } 
+    }
     .flexbox-container, .populer-colection, .photo-album{
-        
         grid-template-columns: repeat(2, 1fr);
-        
     }
-    .flexbox-container, .populer-colection, .photo-album{
+    .half-width,.products, .photo-frame{
         flex-direction: column;
-    }
+    } 
+   .footer-head{
+       width: 100%;
+   }
 }
