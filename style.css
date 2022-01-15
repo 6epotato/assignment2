@@ -21,6 +21,10 @@ header section h4{
     height: 400px;
     width: 400px;
 }
+.half-width:hover img{
+    transform: scale(1.4);
+    transition: transform 2s ease-in-out;
+}
 /* button  */
 .prebook-button {
     text-decoration:none;
@@ -46,6 +50,7 @@ header section h4{
     grid-column-gap: 30px;
     grid-row-gap: 20px;
     padding-left: 104px;
+    margin-bottom: 30px;
     
 }
 .full-body .products .action{ 
@@ -58,6 +63,7 @@ header section h4{
    padding: 20px 20px 20px 20px;
    border-radius: 20px;
    box-shadow: #787885;
+
 }
 /* stars */
 
@@ -72,6 +78,14 @@ header section h4{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     color: #787885;
+}
+.see-more{
+    text-decoration: none;
+    color:rgba(245, 69, 69, 0.897) ;
+    float: right;
+    margin: 0px 169px 0px 0px;
+    
+
 } 
 /* -------------------------
 footer section 
@@ -82,4 +96,16 @@ footer section
     background-color: #000033;
     color: white;
     text-align: center;
+    margin-top: 156px;
+}
+.footer-head h1{
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer-head p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.fab{
+    margin-right: 16px;
 }
